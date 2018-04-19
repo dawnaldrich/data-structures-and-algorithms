@@ -6,6 +6,6 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Solution
 <!-- Embedded whiteboard image -->
-
+![img_6713](https://user-images.githubusercontent.com/34463026/38966047-0cd27ada-4335-11e8-8030-669c1d745272.jpg)
 
 
