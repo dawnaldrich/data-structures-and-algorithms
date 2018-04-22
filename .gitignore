@@ -111,8 +111,11 @@ $RECYCLE.BIN/
 *.lnk
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> dd3b725604ae3d0a748d665a7e9094eb8338f94b
 # End of https://www.gitignore.io/api/node,macos,windows
 
 
@@ -184,4 +187,7 @@ fabric.properties
 .idea/sonarlint
 
 
+<<<<<<< HEAD
 # End of https://www.gitignore.io/api/webstorm
+=======
+
