@@ -1,8 +1,7 @@
 # Insert and shift middle index of array
-<!-- Short summary or background information -->
 
 ## Challenge
-<!-- Description of the challenge -->
+Input an array and integer - return an array with the new value added at the middle index
 
 ## Solution
 <!-- Embedded whiteboard image -->
