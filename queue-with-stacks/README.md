@@ -8,4 +8,4 @@ dequeue() which extracts a value from the Queue using a first-in, first-out appr
 Use to 2 Stack instances with push and pop methods.
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![queue-with-stacks](https://user-images.githubusercontent.com/34463026/39461796-36a115ce-4cc2-11e8-9430-9e574bf37cdd.jpg)
