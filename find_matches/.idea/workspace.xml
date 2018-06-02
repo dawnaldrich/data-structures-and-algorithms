@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24d2c901-4ed4-48cc-8f7d-12ee068365b9" name="Default" comment="" />
+    <list default="true" id="d020999d-cdaf-482f-ae6d-2ae4d6edf441" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="272">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -43,7 +43,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="639" />
+    <option name="width" value="544" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -51,23 +51,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="multi-bracket-validation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-bracket-validation" type="462c0819:PsiDirectoryNode" />
+              <item name="find_matches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="find_matches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="multi-bracket-validation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-bracket-validation" type="462c0819:PsiDirectoryNode" />
+              <item name="find_matches" type="b2602c69:ProjectViewProjectNode" />
+              <item name="find_matches" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -78,11 +78,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,22 +96,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24d2c901-4ed4-48cc-8f7d-12ee068365b9" name="Default" comment="" />
-      <created>1525357330120</created>
+      <changelist id="d020999d-cdaf-482f-ae6d-2ae4d6edf441" name="Default" comment="" />
+      <created>1527138006640</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1525357330120</updated>
-      <workItem from="1525357332240" duration="772000" />
+      <updated>1527138006640</updated>
+      <workItem from="1527138008972" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="772000" />
+    <option name="totallyTimeSpent" value="814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="639" height="797" extended-state="0" />
+    <frame x="0" y="23" width="544" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5404531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35946462" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -128,9 +123,9 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -144,8 +139,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="272">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
