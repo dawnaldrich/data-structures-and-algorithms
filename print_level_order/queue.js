@@ -20,7 +20,7 @@ class Queue {
   }
 
   isEmpty() {
-    if (this.storage.length < 1) {
+    if (this._storage.length < 1) {
       return true;
     }
     return false;

@@ -1,6 +1,6 @@
 'use strict';
 
-const repeatedWordArray = require('../repeated_word.js);
+// const repeatedWordArray = require('../repeated_word.js');
 
 // describe('repeated_word.js', () => {
 //   test('Should return null', () => {
