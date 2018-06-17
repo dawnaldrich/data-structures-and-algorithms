@@ -1,35 +1,17 @@
 'use strict';
 
-import Queue from './queue';
+// import Queue from '../helpers/queue';
+// import KaryTree from '../helpers/kary-tree';
 
-export default class KAryTree {
-  constructor(root) {
-    this.root = root;
-  }
 
-  // Time : O(n)
-  // Space : O(w) -> O(n)
-  breadthSearchTraversal() {
-    if (!this.root) {
-      return null;
-    }
-    return this._breadthFirstSearch(this.root);
-  }
+const printLevelOrder = (root) => {
+  console.log(root);
+  root.level = '1';
+  console.log(root.level);
+  // let currentLevel = 1;
+  // let queue = new Queue();
+};
 
-  _breadthFirstSearch(root) { // eslint-disable-line
-    const queue = new Queue();
-    queue.enqueue(root);
+// export default printLevelOrder
 
-    let currentNode = null;
-
-    while (!queue.isEmpty()) {
-      currentNode = queue.dequeue();
-      // console.log is where any other operation can replace
-      console.log(`Visiting ${currentNode.value}`);
-      for (let i = 0; i < currentNode.children.length; i++) {
-        queue.enqueue(currentNode.children[i]);
-      }
-    }
-  }
-}
-
+export default printLevelOrder;

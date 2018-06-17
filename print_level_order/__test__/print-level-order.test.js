@@ -1,11 +1,13 @@
 'use strict';
 
 import KAryNode from '../kary-node';
-import KAryTree from '../print-level-order';
+import KAryTree from '../kary-tree';
+import printLevelOrder from '../print-level-order';
 
 describe('test K-ary-tree', () => {
   test('Should validate the toString method of K-Ary Tree using Breadth Traversal', () => {
     const one = new KAryNode('A');
+
     one.appendChild('B'); // 0
     one.appendChild('C'); // 1
     one.appendChild('D'); // 2
@@ -24,11 +26,10 @@ describe('test K-ary-tree', () => {
     one.children[0].children[0].appendChild('O');
     one.children[3].children[0].appendChild('P');
     one.children[3].children[1].appendChild('Q');
-    one.children[3].children[1].appendChild('R');
 
 
     const kAryTree = new KAryTree(one);
-    expect(kAryTree.breadthSearchTraversal(one)).toEqual('BCDEFGHIJKLMNOPQR');
+    expect(printLevelOrder(kAryTree)).toEqual('BCDEFGHIJKLMNOPQR');
     // expect(kAryTree.breadthSearchTraversal(one)).toEqual('\n1\n2\n3\n4\n5\n6\n7\n8');
   });
 });
