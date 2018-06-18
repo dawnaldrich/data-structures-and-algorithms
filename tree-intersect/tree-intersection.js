@@ -1,6 +1,5 @@
 'use strict';
 
-
 const myMap = new Map();
 const matches = [];
 
