@@ -7,7 +7,6 @@ class Queue {
   }
 
   enqueue(value) {
-    // Vinicio - putting elements at the end of the array
     this._storage.push(value);
   }
 
