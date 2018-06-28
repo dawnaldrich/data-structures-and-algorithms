@@ -1,19 +1,14 @@
 
 export default function reverseList(list) {
-  if (list.length < 2) {
-    return;
+  if (!list) return undefined;
+  let current = list.head;
+  let previous = null;
+  while (current) {
+    const save = current.next;
+    current.next = previous;
+    previous = current;
+    current = save;
   }
-
-  let first = list.head;
-  let second = first.next;
-
-  while (second) {
-    const temp = second.next;
-    first = second;
-    second = temp;
-  }
-
-  list.head.next = null;
-  list.head.next = first;
+  return previous.value;
 }
 

@@ -5,7 +5,6 @@ const Node = require('./node');
 module.exports = class LinkedList {
   constructor() {
     this.head = null;
-    this.length = '';
   }
 
   mapList(newList) {
@@ -26,6 +25,7 @@ module.exports = class LinkedList {
     this.head = node;
     return this;
   }
+
 
   insertAtEnd(value) {
     const node = new Node(value);

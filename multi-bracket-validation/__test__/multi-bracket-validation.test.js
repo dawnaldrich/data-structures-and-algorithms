@@ -1,6 +1,5 @@
 'use strict';
 
-// import Stack from 'stack';
 import bracketValidation from '../mutli-bracket-validation';
 
 describe('test bracket validation', () => {
