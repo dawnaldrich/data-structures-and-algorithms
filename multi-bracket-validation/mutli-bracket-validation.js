@@ -24,13 +24,10 @@ function bracketValidation(strToValidate) {
       }
     }
   }
-  console.log(stack);
   if (stack.isEmpty()) {
     return true;
   }
   return false;
 }
-
-// bracketValidation('t([{}])');
 
 export default bracketValidation;
